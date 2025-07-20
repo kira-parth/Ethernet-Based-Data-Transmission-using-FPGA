@@ -1,6 +1,7 @@
 # Ethernet-Based-Data-Transmission-using-FPGA
 
-
+if you want to now working see both videos 
+for working add all vivado files make top module as top and generate bitstream
 This project contains an ethernet mac which is compatible with the Digilent Nexys 4 DDR FPGA board. This MAC uses an RMII interface to transmit/receive data, and SMI to set/read the control registers on the PHY. It normalizes the RX/TX data into a stream of bytes and performs the CRC check. It supports a native stream protocol as well as AXI stream for sending and receiving packets. This project is packaged into an IP core to be included in other projects. There is also a very simple example included. This code may work or be easily adapted to work with other FPGA boards. I have a Nexys 4 DDR so that is what I tested with and what I support.
 
 Building
